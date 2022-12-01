@@ -1,0 +1,51 @@
+button{
+  border: none;
+  background-color: transparent;
+}
+
+#home, #history, #team, #footer{
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+}
+
+#second-navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+#home{
+  display: flex;
+  justify-content: center;
+  background-image: url("/assets/image1.png");
+  height: 51.5625vw;  /* done using image: (height / width) x 100 */ 
+}
+
+#history{
+  background-image: url("/assets/image2.png");
+  height: 56.5625vw;
+}
+
+#team{
+  background-image: url("/assets/image3.png");
+  height: 46.1875vw;
+  margin-top: 2vw;
+}
+
+#footer{
+  background-image: url("/assets/footer.png");
+  height: 4.625vw;
+}
+
+body{
+  background-color: #61759e;
+}
+
+.navbar{
+  width: 55vw;
+  display: flex;
+  align-items: flex-start;
+}
